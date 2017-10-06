@@ -68,21 +68,13 @@ h5 {
     margin-bottom: 100px;
 }
 
-.imgbox {
-    height: 330px;
-    width: 360px;
-    overflow: hidden;
-    /*max-width: 100%;*/
-    /*max-height: 100%;*/
-}
-
 .smallicon {
     width: 18px;
     height: 18px;
     border-radius: 100%;
     /*background-color: red;*/
     float: right;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
     font-size: 12px;
 }
@@ -101,13 +93,15 @@ h5 {
 
 .icon4 {
     background-color: #00ABA9;
+    margin-right: 58px;
 }
 
 .cover {
     object-fit: cover;
-    width: 375px;
+    width: 310px;
     height: 230px;
     border: solid 5px dimgrey;
     border-radius: 10px;
     box-sizing: content-box;
+    padding: 0px;
 }
