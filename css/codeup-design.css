@@ -38,7 +38,10 @@ img {
     background-color: white;
     position: absolute;
     top: 36px;
+}
 
+.white-bar-small {
+    top: 27px;
 }
 
 .white-bar h4 {
@@ -125,7 +128,7 @@ border: solid 5px #e6e6e6;
     border-radius: 10px;
     box-sizing: content-box;
     padding: 0px;
-    margin: 30px 20px 0px 14px;
+    /*margin: 30px 20px 0px 14px;*/
     width: 100%;
 }
 
