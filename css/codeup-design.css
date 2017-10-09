@@ -97,14 +97,15 @@ h5 {
 }
 
 .cover {
-    object-fit: cover;
-    width: 310px;
-    height: 190px;
+    /*object-fit: cover;*/
+    /*width: 310px;*/
+    /*height: 190px;*/
     border: solid 5px #e6e6e6;
     border-radius: 10px;
     box-sizing: content-box;
     padding: 0px;
     margin: 30px 20px 0px 14px;
+    width: 100%;
 }
 
 /*this fixed the image size problems on "the last" section, try applying it to the selected work section and removing older code to see if it achieves a better outcome*/
