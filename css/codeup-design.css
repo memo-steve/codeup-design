@@ -32,8 +32,25 @@ img {
     width: 100%;
 }
 
-.white-bar {
+.real-white-bar {
+    height: 46px;
+    width: 100%;
     background-color: white;
+    position: absolute;
+    top: 36px;
+
+}
+
+.white-bar h4 {
+    padding-left: 14px;
+}
+
+.white-bar-rel {
+    position: relative;
+}
+
+.white-bar {
+    /*background-color: white;*/
     margin-top: 30px;
     padding-bottom: 10px;
     padding-top: 10px;
