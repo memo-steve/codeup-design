@@ -159,3 +159,15 @@ border: solid 5px #e6e6e6;
     width: 28px;
     /*padding-bottom: 20px;*/
 }
+
+@media screen and (max-width: 991px) {
+    .turn-off-large {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .turn-off-small {
+        display: none;
+    }
+}
