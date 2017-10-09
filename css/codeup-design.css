@@ -47,7 +47,7 @@ img {
 }
 
 .white-bar h4 {
-    padding-left: 14px;
+    margin-left: 30px;
 }
 
 .white-bar-rel {
@@ -182,16 +182,34 @@ border: solid 5px #e6e6e6;
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
     .turn-off-xs {
         display: none;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .turn-off-mobile {
         display: none;
+    }
+
+    .logo {
         position: static;
+        margin: auto;
+    }
+
+    .last-margin {
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+
+    .linebreak {
+        display: none;
+    }
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
