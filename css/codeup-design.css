@@ -30,6 +30,8 @@ h5 {
 /*this fixed the image size problems on "the last" section, try applying it to the selected work section and removing older code to see if it achieves a better outcome*/
 img {
     width: 100%;
+    display: block;
+    text-align: center;
 }
 
 .real-white-bar {
@@ -167,10 +169,29 @@ border: solid 5px #e6e6e6;
     .turn-off-large {
         display: none;
     }
+    p {
+        text-align: center;
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (min-width: 992px) {
     .turn-off-small {
         display: none;
     }
+
 }
+
+@media screen and (max-width: 767px) {
+    .turn-off-xs {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .turn-off-mobile {
+        display: none;
+        position: static;
+    }
+}
+
