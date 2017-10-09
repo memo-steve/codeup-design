@@ -93,15 +93,25 @@ h5 {
 
 .icon4 {
     background-color: #00ABA9;
-    margin-right: 58px;
+    margin-right: 40px;
 }
 
 .cover {
     object-fit: cover;
     width: 310px;
-    height: 230px;
-    border: solid 5px dimgrey;
+    height: 190px;
+    border: solid 5px #e6e6e6;
     border-radius: 10px;
     box-sizing: content-box;
     padding: 0px;
+    margin: 30px 20px 0px 14px;
+}
+
+/*this fixed the image size problems on "the last" section, try applying it to the selected work section and removing older code to see if it achieves a better outcome*/
+img {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
 }
