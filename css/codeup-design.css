@@ -55,7 +55,6 @@ img {
 }
 
 .white-bar {
-    /*background-color: white;*/
     margin-top: 30px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -87,6 +86,7 @@ width: 105px;
 
 .frame {
     border: solid 1px black;
+
 }
 .linebreak {
     width: 100%;
@@ -98,8 +98,7 @@ width: 105px;
     width: 18px;
     height: 18px;
     border-radius: 100%;
-/*background-color: red;*/
-float: right;
+    float: right;
     margin: 5px;
     text-align: center;
     font-size: 12px;
@@ -148,7 +147,7 @@ border: solid 5px #e6e6e6;
     clear: both;
 }
 
-.last-margin {
+.bottom-margin {
     margin-top: 40px;
 }
 
@@ -162,7 +161,7 @@ border: solid 5px #e6e6e6;
 
 .twitter {
     width: 28px;
-    /*padding-bottom: 20px;*/
+    float: left;
 }
 
 @media screen and (max-width: 991px) {
@@ -172,6 +171,11 @@ border: solid 5px #e6e6e6;
     p {
         text-align: center;
         margin-bottom: 30px;
+    }
+
+    .linebreak {
+        width: 90%;
+        margin: 0 auto 100px;
     }
 }
 
@@ -198,7 +202,7 @@ border: solid 5px #e6e6e6;
         margin: auto;
     }
 
-    .last-margin {
+    .bottom-margin {
         margin-top: 0;
         margin-bottom: 60px;
     }
